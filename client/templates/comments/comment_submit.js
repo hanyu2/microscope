@@ -17,6 +17,7 @@ Template.commentSubmit.events({
             body: $body.val(),
             postId: template.data._id
         };
+        console.log(comment);
         var errors = {};
         if (!comment.body) {
             errors.body = "Please write some content";
