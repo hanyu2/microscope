@@ -24,7 +24,6 @@ Template.postEdit.events({
             if (error) {
                 // display the error to the user
                 throwError(error.reason);
-                console.log("validating");
             } else {
                 Router.go('postPage', { _id: currentPostId });
             }
@@ -35,7 +34,7 @@ Template.postEdit.events({
         if (confirm("Delete this post?")) {
             var currentPostId = this._id;
             Posts.remove(currentPostId);
-            Router.go('postsList');
+            Router.go('home');
         }
     }
 });
