@@ -3,5 +3,5 @@ Meteor practice from [Discover Meteor](https://s3.amazonaws.com/discovermeteor/f
 
 
 For more meteor deployment information on Heroku, check out:<br />
-https://medium.com/@leonardykris/how-to-run-a-meteor-js-application-on-heroku-in-10-steps-7aceb12de234<br />
+https://medium.com/@gge/deploy-a-meteor-1-3-application-to-heroku-cda1f68ca20a<br />
 https://www.sitepoint.com/deploy-rest-api-in-30-mins-mlab-heroku/
